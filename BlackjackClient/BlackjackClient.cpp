@@ -41,7 +41,7 @@ int main() {
     int size;
     game = new GameTable();
 
-    std::cout << "enter your coins" << std::endl;
+    std::cout << "enter your coins, please" << std::endl;
     std::cin >> coins;
     game->start(coins);
     while (1) {
